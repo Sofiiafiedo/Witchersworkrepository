@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1279126624837138418
+--- !u!1 &4161643996991050833
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9124230984946401245}
-  - component: {fileID: 104651732198276361}
-  - component: {fileID: 3056877356656020997}
+  - component: {fileID: 4881469877436964336}
+  - component: {fileID: 4224083875393000889}
+  - component: {fileID: 4537608701099999456}
   m_Layer: 0
-  m_Name: Tiny Rock 3_LOD0
+  m_Name: Tiny Rock 2_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9124230984946401245
+--- !u!4 &4881469877436964336
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279126624837138418}
+  m_GameObject: {fileID: 4161643996991050833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2158447070550993119}
+  m_Father: {fileID: 5710540906662023542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &104651732198276361
+--- !u!33 &4224083875393000889
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279126624837138418}
-  m_Mesh: {fileID: 773794950781135660, guid: 91f51d8efd4ca164db9848f7adb60aa9, type: 3}
---- !u!23 &3056877356656020997
+  m_GameObject: {fileID: 4161643996991050833}
+  m_Mesh: {fileID: 5118485253465401967, guid: ad7daad3aa9a2a14a81709996b969b67, type: 3}
+--- !u!23 &4537608701099999456
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279126624837138418}
+  m_GameObject: {fileID: 4161643996991050833}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,6 +58,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,7 +86,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1938677345852211302
+--- !u!1 &4390077256008189946
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,46 +94,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1015472874000896531}
-  - component: {fileID: 8906300157733337771}
-  - component: {fileID: 9182314283299485956}
+  - component: {fileID: 6667447949342729734}
+  - component: {fileID: 5426592224089072228}
+  - component: {fileID: 79391226076664085}
   m_Layer: 0
-  m_Name: Tiny Rock 3_LOD1
+  m_Name: Tiny Rock 2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1015472874000896531
+--- !u!4 &6667447949342729734
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938677345852211302}
+  m_GameObject: {fileID: 4390077256008189946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2158447070550993119}
+  m_Father: {fileID: 5710540906662023542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8906300157733337771
+--- !u!33 &5426592224089072228
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938677345852211302}
-  m_Mesh: {fileID: -4747803579226668430, guid: 91f51d8efd4ca164db9848f7adb60aa9, type: 3}
---- !u!23 &9182314283299485956
+  m_GameObject: {fileID: 4390077256008189946}
+  m_Mesh: {fileID: -1245328454602541651, guid: ad7daad3aa9a2a14a81709996b969b67, type: 3}
+--- !u!23 &79391226076664085
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938677345852211302}
+  m_GameObject: {fileID: 4390077256008189946}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -141,6 +144,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -166,7 +172,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3982641034432706147
+--- !u!1 &4781888783982101894
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,73 +180,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2158447070550993119}
-  - component: {fileID: 2594349462952633242}
-  - component: {fileID: 7858329305296389104}
+  - component: {fileID: 5710540906662023542}
+  - component: {fileID: 5720365779358838657}
+  - component: {fileID: 7467519823036382933}
   m_Layer: 0
-  m_Name: Tiny Rock 3
+  m_Name: Tiny Rock 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2158447070550993119
+--- !u!4 &5710540906662023542
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982641034432706147}
+  m_GameObject: {fileID: 4781888783982101894}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9124230984946401245}
-  - {fileID: 1015472874000896531}
-  - {fileID: 4514585801858567831}
-  - {fileID: 21089427021283453}
+  - {fileID: 6667447949342729734}
+  - {fileID: 670830713888498047}
+  - {fileID: 8899842815711337528}
+  - {fileID: 4881469877436964336}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!205 &2594349462952633242
+--- !u!205 &5720365779358838657
 LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982641034432706147}
+  m_GameObject: {fileID: 4781888783982101894}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.004278362, y: 0.10923459, z: -0.021674454}
-  m_Size: 0.28159738
+  m_LocalReferencePoint: {x: 0.011590213, y: 0.10160653, z: -0.016072206}
+  m_Size: 0.52547246
   m_FadeMode: 1
   m_AnimateCrossFading: 1
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.041171562
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 3056877356656020997}
-  - screenRelativeHeight: 0.022038903
+    - renderer: {fileID: 79391226076664085}
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 9182314283299485956}
-  - screenRelativeHeight: 0.010479592
+    - renderer: {fileID: 1954448408923617148}
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 5259554023794403066}
-  - screenRelativeHeight: 0.003850127
+    - renderer: {fileID: 3121649330243727944}
+  - screenRelativeHeight: 0
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 6447868712137412628}
+    - renderer: {fileID: 4537608701099999456}
   m_Enabled: 1
---- !u!64 &7858329305296389104
+--- !u!64 &7467519823036382933
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982641034432706147}
+  m_GameObject: {fileID: 4781888783982101894}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -255,8 +261,8 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 773794950781135660, guid: 91f51d8efd4ca164db9848f7adb60aa9, type: 3}
---- !u!1 &7487098260915936326
+  m_Mesh: {fileID: -1245328454602541651, guid: ad7daad3aa9a2a14a81709996b969b67, type: 3}
+--- !u!1 &6322648621375887453
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,46 +270,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4514585801858567831}
-  - component: {fileID: 5246859322882971505}
-  - component: {fileID: 5259554023794403066}
+  - component: {fileID: 8899842815711337528}
+  - component: {fileID: 1166274876906989946}
+  - component: {fileID: 3121649330243727944}
   m_Layer: 0
-  m_Name: Tiny Rock 3_LOD2
+  m_Name: Tiny Rock 2_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4514585801858567831
+--- !u!4 &8899842815711337528
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487098260915936326}
+  m_GameObject: {fileID: 6322648621375887453}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2158447070550993119}
+  m_Father: {fileID: 5710540906662023542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5246859322882971505
+--- !u!33 &1166274876906989946
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487098260915936326}
-  m_Mesh: {fileID: -9170643756170909425, guid: 91f51d8efd4ca164db9848f7adb60aa9, type: 3}
---- !u!23 &5259554023794403066
+  m_GameObject: {fileID: 6322648621375887453}
+  m_Mesh: {fileID: -2845865896590649895, guid: ad7daad3aa9a2a14a81709996b969b67, type: 3}
+--- !u!23 &3121649330243727944
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7487098260915936326}
+  m_GameObject: {fileID: 6322648621375887453}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -314,6 +320,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -339,7 +348,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9013682536413794574
+--- !u!1 &8570193169305245500
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -347,46 +356,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 21089427021283453}
-  - component: {fileID: 1947965325521943594}
-  - component: {fileID: 6447868712137412628}
+  - component: {fileID: 670830713888498047}
+  - component: {fileID: 7554456075039435031}
+  - component: {fileID: 1954448408923617148}
   m_Layer: 0
-  m_Name: Tiny Rock 3_LOD3
+  m_Name: Tiny Rock 2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &21089427021283453
+--- !u!4 &670830713888498047
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9013682536413794574}
+  m_GameObject: {fileID: 8570193169305245500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2158447070550993119}
+  m_Father: {fileID: 5710540906662023542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1947965325521943594
+--- !u!33 &7554456075039435031
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9013682536413794574}
-  m_Mesh: {fileID: 7087053261184637438, guid: 91f51d8efd4ca164db9848f7adb60aa9, type: 3}
---- !u!23 &6447868712137412628
+  m_GameObject: {fileID: 8570193169305245500}
+  m_Mesh: {fileID: -2515740415452604411, guid: ad7daad3aa9a2a14a81709996b969b67, type: 3}
+--- !u!23 &1954448408923617148
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9013682536413794574}
+  m_GameObject: {fileID: 8570193169305245500}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -397,6 +406,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
