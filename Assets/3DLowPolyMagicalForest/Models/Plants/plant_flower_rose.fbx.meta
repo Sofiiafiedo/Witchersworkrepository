@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 4be66d01ab3acd14db96966b239c37fd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 323631
+  packageName: 3D Low Poly Magical Forest
+  packageVersion: 1.0.0
+  assetPath: Assets/PolitePenguin/3DLowPolyMagicalForest/Models/Plants/plant_flower_rose.fbx
+  uploadId: 767655
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -48,7 +53,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -61,10 +66,10 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinLightmapResolution: 20
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
@@ -107,10 +112,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 323631
-  packageName: 3D Low Poly Magical Forest
-  packageVersion: 1.0.0
-  assetPath: Assets/PolitePenguin/3DLowPolyMagicalForest/Models/Plants/plant_flower_rose.fbx
-  uploadId: 767655
