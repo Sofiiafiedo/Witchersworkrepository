@@ -182,9 +182,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1832662644463448830}
   - component: {fileID: 1233267635791406138}
+  - component: {fileID: 1985251614060013426}
   m_Layer: 0
   m_Name: NHP_Grass_A1_H40cm_01c
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,6 +235,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 5030352929428958972}
   m_Enabled: 1
+--- !u!65 &1985251614060013426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3401824311106453741}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3, y: 0.1, z: 1.4}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5519206178088812041
 GameObject:
   m_ObjectHideFlags: 0
