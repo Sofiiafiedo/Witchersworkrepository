@@ -59,6 +59,12 @@ public class RitualStoneController : MonoBehaviour
         ritualStarted = true;
         message.text = "";
 
+        // удаляем зелье из руки
+        if (potion != null)
+        {
+            Destroy(potion.gameObject);
+        }
+
         // 1️⃣ Звук играет ровно 1 секунду
         ritualAudio.Play();
         yield return new WaitForSeconds(1f);
@@ -68,13 +74,13 @@ public class RitualStoneController : MonoBehaviour
         yield return fadePortal.FadeIn(2f);
 
         // 3️⃣ Через 1 сек после появления портала — появляется призрак (2 сек)
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
 
         ghost.SetActive(true);
-        yield return fadeGhost.FadeIn(2f);
+        yield return fadeGhost.FadeIn(1f);
 
         // 4️⃣ Портал и звук держатся 4 секунды
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
 
         // 5️⃣ Портал исчезает за 2 сек. Звук выключается после исчезновения.
         yield return fadePortal.FadeOut(2f);

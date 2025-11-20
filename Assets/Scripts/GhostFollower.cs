@@ -5,8 +5,9 @@ public class GhostFollower : MonoBehaviour
     public Transform playerTransform;
 
     [Header("Follow Settings")]
-    public float followDistance = 1f;
-    public float followHeight = 0.3f;
+    public float followDistance = 1f;     // Сбоку справа
+    public float forwardOffset = 0.1f;      // Чуть сзади
+    public float heightOffset = 0.2f;       // Немного выше
     public float followSpeed = 5f;
     public float rotateSpeed = 7f;
 
@@ -14,30 +15,32 @@ public class GhostFollower : MonoBehaviour
 
     void Update()
     {
-        if (!following || playerTransform == null) return;
+        if (!following || playerTransform == null)
+            return;
 
-        // Позиция сбоку игрока
+        // --- 1) целевая позиция ---
         Vector3 targetPos =
             playerTransform.position
-            - playerTransform.right * followDistance
-            + Vector3.up * followHeight;
+            + playerTransform.right * followDistance * 1f   // справа
+            - playerTransform.forward * forwardOffset       // немного позади
+            + Vector3.up * heightOffset;                    // выше
 
-        // Плавное движение
-        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * followSpeed);
+        transform.position = Vector3.Lerp(
+            transform.position,
+            targetPos,
+            Time.deltaTime * followSpeed);
 
-        // Плавный поворот на игрока
+        // --- 2) Смотрим на игрока ---
         Vector3 lookDir = playerTransform.position - transform.position;
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lookDir), Time.deltaTime * rotateSpeed);
+        transform.rotation = Quaternion.Slerp(
+            transform.rotation,
+            Quaternion.LookRotation(lookDir),
+            Time.deltaTime * rotateSpeed
+        );
     }
 
-    // ← Исправленный метод: игрок передаётся НЕ обязательно
-    public void StartFollowing(Transform player = null)
+    public void StartFollowing(Transform player)
     {
-        if (player == null)
-        {
-            player = GameObject.FindGameObjectWithTag("Player").transform;
-        }
-
         playerTransform = player;
         following = true;
     }
